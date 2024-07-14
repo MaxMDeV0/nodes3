@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6691368cb6a09a9844730131"
+  },
+  "libelle": "Frêne",
+  "radar": [
+    2.07,
+    0.83,
+    1.14,
+    4.71
+  ],
+  "companyDesc": "BBois est une entreprise renommée dans le domaine de la transformation et de la vente de bois haut de gamme. Spécialisée dans les essences de bois telles que le chêne, le frêne et le noyer, BBois fournit des matériaux de qualité pour les artisans, les constructeurs et les designers. L'entreprise offre une variété de produits, des planches brutes aux meubles finis, tout en garantissant une gestion durable des forêts d'où provient son bois. BBois est reconnue pour son savoir-faire traditionnel allié à des techniques modernes, permettant de créer des produits durables, esthétiques et respectueux de l'environnement. La passion pour le bois et le souci du détail font de BBois un acteur incontournable dans le secteur du bois.",
+  "company": "BBois",
+  "description": "Le frêne est un bois à grain droit, reconnu pour sa flexibilité et sa résistance aux chocs, ce qui en fait un choix idéal pour la fabrication de manches d'outils, de bâtons de sport et de meubles. Originaire principalement des régions tempérées de l'hémisphère nord, le frêne est apprécié pour sa couleur claire, généralement blanc à beige, et sa texture fine et lisse. Sa capacité à absorber les chocs sans se fissurer le rend également prisé pour la production de panneaux et de planchers. En plus de ses qualités mécaniques, le frêne est facile à travailler, permettant des finitions précises et élégantes."
+},
+{
+  "_id": {
+    "$oid": "669136e9b6a09a9844730132"
+  },
+  "libelle": "Chêne",
+  "radar": [
+    3.12,
+    0.44,
+    2.03,
+    3.58
+  ],
+  "companyDesc": "BBois est une entreprise renommée dans le domaine de la transformation et de la vente de bois haut de gamme. Spécialisée dans les essences de bois telles que le chêne, le frêne et le noyer, BBois fournit des matériaux de qualité pour les artisans, les constructeurs et les designers. L'entreprise offre une variété de produits, des planches brutes aux meubles finis, tout en garantissant une gestion durable des forêts d'où provient son bois. BBois est reconnue pour son savoir-faire traditionnel allié à des techniques modernes, permettant de créer des produits durables, esthétiques et respectueux de l'environnement. La passion pour le bois et le souci du détail font de BBois un acteur incontournable dans le secteur du bois.",
+  "company": "BBois",
+  "description": "Le chêne est un type de bois dur originaire de l'hémisphère nord, apprécié pour sa solidité et sa durabilité. Utilisé depuis des siècles dans la construction, l'ameublement et la fabrication de tonneaux pour le vieillissement du vin et des spiritueux, il se distingue par sa texture dense et son grain élégant. Le bois de chêne, souvent brun clair à brun foncé, possède une résistance naturelle aux insectes et aux champignons, ce qui le rend particulièrement adapté à des usages extérieurs et intérieurs. De plus, le chêne développe une patine riche avec le temps, ajoutant une valeur esthétique aux objets fabriqués à partir de ce matériau."
+},
+{
+  "_id": {
+    "$oid": "669136fdb6a09a9844730133"
+  },
+  "libelle": "Noyer",
+  "radar": [
+    2.77,
+    3.6,
+    3.22,
+    2.53
+  ],
+  "companyDesc": "BBois est une entreprise renommée dans le domaine de la transformation et de la vente de bois haut de gamme. Spécialisée dans les essences de bois telles que le chêne, le frêne et le noyer, BBois fournit des matériaux de qualité pour les artisans, les constructeurs et les designers. L'entreprise offre une variété de produits, des planches brutes aux meubles finis, tout en garantissant une gestion durable des forêts d'où provient son bois. BBois est reconnue pour son savoir-faire traditionnel allié à des techniques modernes, permettant de créer des produits durables, esthétiques et respectueux de l'environnement. La passion pour le bois et le souci du détail font de BBois un acteur incontournable dans le secteur du bois.",
+  "company": "BBois",
+  "description": "Le noyer est un bois noble, souvent utilisé dans l'ébénisterie haut de gamme et la fabrication de meubles de luxe en raison de son apparence riche et de sa durabilité. Caractérisé par un grain droit à légèrement ondulé et des couleurs variant du brun clair au brun foncé, parfois avec des teintes pourpres, le noyer développe une patine magnifique avec le temps. Originaire des régions tempérées, le noyer est également prisé pour la fabrication d'instruments de musique, de fusils et de sculptures. Sa facilité de polissage et sa capacité à conserver une finition lisse et brillante augmentent son attrait pour les artisans et les designers."
+},
+{
+  "_id": {
+    "$oid": "6691370bb6a09a9844730134"
+  },
+  "libelle": "Acier Inox",
+  "radar": [
+    3,
+    4.01,
+    1.62,
+    1.69
+  ],
+  "companyDesc": "Metalo est une entreprise spécialisée dans la production et la distribution de métaux de haute performance, incluant l'aluminium et l'acier inoxydable. Avec une expertise pointue et des installations de pointe, Metalo sert divers secteurs industriels, de l'aérospatiale à la construction, en passant par l'automobile et l'électronique. L'entreprise se distingue par sa capacité à fournir des produits métalliques sur mesure, répondant aux spécifications les plus strictes. Metalo s'engage également dans des pratiques durables, en optimisant l'efficacité énergétique de ses processus et en favorisant le recyclage des métaux. Grâce à son innovation constante et à sa fiabilité, Metalo est un partenaire de choix pour les entreprises exigeantes en matière de qualité et de performance métallurgique.",
+  "company": "Metalo",
+  "description": "L'acier inoxydable, ou inox, est un alliage de fer, de chrome et de nickel, connu pour sa résistance exceptionnelle à la corrosion et aux taches. Utilisé dans des secteurs variés tels que la construction, l'industrie alimentaire, les appareils ménagers et la médecine, l'acier inox offre une combinaison unique de robustesse, de durabilité et d'esthétique. Sa surface lisse et brillante, facile à nettoyer, en fait un matériau de choix pour les environnements nécessitant des normes d'hygiène strictes. De plus, l'acier inox est capable de résister à des températures extrêmes, ce qui le rend indispensable pour les applications industrielles et les équipements de cuisson."
+},
+{
+  "_id": {
+    "$oid": "66913729b6a09a9844730136"
+  },
+  "libelle": "Aluminium",
+  "radar": [
+    0.19,
+    3.11,
+    3.67,
+    0.34
+  ],
+  "companyDesc": "Metalo est une entreprise spécialisée dans la production et la distribution de métaux de haute performance, incluant l'aluminium et l'acier inoxydable. Avec une expertise pointue et des installations de pointe, Metalo sert divers secteurs industriels, de l'aérospatiale à la construction, en passant par l'automobile et l'électronique. L'entreprise se distingue par sa capacité à fournir des produits métalliques sur mesure, répondant aux spécifications les plus strictes. Metalo s'engage également dans des pratiques durables, en optimisant l'efficacité énergétique de ses processus et en favorisant le recyclage des métaux. Grâce à son innovation constante et à sa fiabilité, Metalo est un partenaire de choix pour les entreprises exigeantes en matière de qualité et de performance métallurgique.",
+  "company": "Metalo",
+  "description": "L'aluminium est un métal léger mais robuste, couramment utilisé dans une variété d'industries allant de l'aérospatiale à l'électronique. Sa résistance à la corrosion, associée à sa conductivité électrique et thermique élevée, en fait un matériau polyvalent et durable. L'aluminium est également recyclable à 100%, ce qui en fait un choix écologique pour de nombreuses applications. De couleur argentée et avec une surface souvent anodisée pour une protection supplémentaire, ce métal est largement employé dans la fabrication de cadres de fenêtres, de carrosseries de véhicules, de canettes et de composants industriels, grâce à son rapport résistance/poids avantageux."
+},
+{
+  "_id": {
+    "$oid": "66913758b6a09a9844730137"
+  },
+  "libelle": "Plastique",
+  "radar": [
+    2.57,
+    0.57,
+    3.54,
+    0.98
+  ],
+  "companyDesc": "pPlastique est une entreprise spécialisée dans la fabrication de produits en plastique de haute qualité. Forte d'une expérience de plusieurs décennies, cette société se distingue par son engagement envers l'innovation et la durabilité. pPlastique propose une large gamme de produits, allant des emballages alimentaires aux composants industriels, en passant par les objets de consommation courante. L'entreprise met un point d'honneur à utiliser des matériaux recyclés et développe constamment de nouvelles solutions pour réduire l'empreinte écologique de ses produits. Grâce à des technologies de pointe et à une équipe de recherche et développement dédiée, pPlastique est un leader dans le secteur des plastiques écologiques et fonctionnels.",
+  "company": "pPlastique",
+  "description": "Le plastique est un matériau synthétique, dérivé principalement des polymères, qui se distingue par sa légèreté, sa flexibilité et sa résistance à l'eau. Utilisé dans une multitude d'applications, du conditionnement des aliments aux jouets, en passant par les dispositifs médicaux et les composants électroniques, le plastique est apprécié pour sa capacité à être moulé en différentes formes et tailles. Bien qu'il soit souvent critiqué pour ses impacts environnementaux, des efforts croissants sont déployés pour développer des plastiques biodégradables et recycler les produits plastiques existants. Sa versatilité et son coût de production relativement bas continuent de faire du plastique un matériau omniprésent dans notre quotidien."
+}]

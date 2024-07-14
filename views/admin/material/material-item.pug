@@ -1,0 +1,73 @@
+extends ../admin-layout
+
+block content 
+    h2.mb-5= material.libelle
+    .mb-9
+        .row.g-5
+            .col-12.col-xl-8   
+                .card        
+                    .card-body
+                        .col-12.col-lg-8
+                            p.mb-0= material.description
+            .col-12.col-xl-4
+                .row.gx-2
+                    .card.mb-3
+                        .card-body
+                            .row.gx-3
+                                .col-12.col-sm-6.col-xl-12
+                                    .mb-4
+                                        .d-flex.flex-wrap.mb-2
+                                            h5.mb-0.text-body-highlight.me-2= material.company
+                                .col-12.col-sm-6.col-xl-12
+                                    .mb-4
+                                        p.mb-0= material.companyDesc
+                    .col-12
+                        .card.shadow-none.border 
+                            .card-header.p-4.border-bottom.bg-body
+                                .col-12 
+                                    h4= "Radar chart" 
+                            .card-body
+                                .echart-radar-chart-examle 
+                                    div(style='')
+                                        canvas(id="radar" width="380" height="300")
+    script.
+        window.material = !{JSON.stringify(material)};
+    script(defer='' src='https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js')
+    script.
+            document.addEventListener("DOMContentLoaded", function() {
+                var chart = echarts.init(document.getElementById('radar'));
+                var option = {
+                    radar:{
+                        center:["50%", "50%"],
+
+                        indicator:[
+                            { name: "Résistance", max:5},
+                            { name: "Entretien", max:5},
+                            { name: "Ecology", max:5},
+                            { name: "Prix", max:5}
+
+                        ]
+                    },
+                    series: [{
+                        name: 'Radar',
+                        type: 'radar',
+                        center: ['50%', '50%'],
+                        data: [
+                            {
+                                value: Object.values(material.radar),
+                                name:"Noyer"
+                            }
+                        ]
+                    }]
+                };
+                chart.setOption(option);
+                window.addEventListener("resize", function() {
+                    let radar = document.getElementById('radar');
+                    let radarParent = radar.parentNode
+                    radar.setAttribute('width', radarParent.clientWidth +'px');
+                    chart.setOption(option);
+
+                })
+
+            });
+

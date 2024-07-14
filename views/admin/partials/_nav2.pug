@@ -1,0 +1,113 @@
+nav.navbar.navbar-vertical.navbar-expand-lg
+	#navbarVerticalCollapse.navbar-collapse.collapse.show(style='')
+		// scrollbar removed
+		.navbar-vertical-content
+			ul#navbarVerticalNav.navbar-nav.flex-column
+				li.nav-item
+					// parent pages
+					.nav-item-wrapper
+						a.nav-link.label-1(href='/logout' role='button' data-bs-toggle='' aria-expanded='')
+							.d-flex.align-items-center
+							span.nav-link-icon
+								svg(xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' viewbox='0 0 512 512'  stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+									path(fill='#525b75' d='M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 192 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128zM160 96c17.7 0 32-14.3 32-32s-14.3-32-32-32L96 32C43 32 0 75 0 128L0 384c0 53 43 96 96 96l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l64 0z')
+								
+							span.nav-link-text-wrapper
+								span.nav-link-text Log out
+
+
+
+				li.nav-item
+					// parent pages
+					.nav-item-wrapper
+						a.nav-link.dropdown-indicator.label-1(href='#' role='button'  aria-expanded='true' )
+							.d-flex.align-items-center
+								.dropdown-indicator-icon-wrapper
+									svg.svg-inline--fa.fa-caret-right.dropdown-indicator-icon(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='caret-right' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 256 512' data-fa-i2svg='')
+										path(fill='currentColor' d='M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z')
+									// <span class="fas fa-caret-right dropdown-indicator-icon"></span> Font Awesome fontawesome.com
+								span.nav-link-icon
+										svg.feather.feather-users(xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+												path(d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2')
+												circle(cx='9' cy='7' r='4')
+												path(d='M23 21v-2a4 4 0 0 0-3-3.87')
+												path(d='M16 3.13a4 4 0 0 1 0 7.75')
+								span.nav-link-text Furnitures
+								svg.svg-inline--fa.fa-circle.text-info.ms-1.new-page-indicator(style='font-size: 6px;' aria-hidden='true' focusable='false' data-prefix='fas' data-icon='circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512' data-fa-i2svg='')
+								// <span class="fa-solid fa-circle text-info ms-1 new-page-indicator" style="font-size: 6px"></span> Font Awesome fontawesome.com
+						.parent-wrapper.label-1
+							ul#nv-home.nav.collapse.parent.show(data-bs-parent='#navbarVerticalCollapse')
+								
+								li.nav-item
+									a.nav-link(href='/admin/furniture')
+										.d-flex.align-items-center
+											span.nav-link-text All furnitures
+									// more inner pages
+								li.nav-item
+									a.nav-link(href='/admin/furniture?category=Cabinet')
+										.d-flex.align-items-center
+											span.nav-link-text Cabinets
+									// more inner pages
+
+								li.nav-item
+									a.nav-link(href='/admin/furniture?category=Shelf')
+										.d-flex.align-items-center
+											span.nav-link-text Shelfs
+									// more inner pages
+				li.nav-item
+					// parent pages
+					.nav-item-wrapper
+						a.nav-link.dropdown-indicator.label-1(href='#' role='button'  aria-expanded='true' )
+							.d-flex.align-items-center
+								.dropdown-indicator-icon-wrapper
+									svg.svg-inline--fa.fa-caret-right.dropdown-indicator-icon(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='caret-right' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 256 512' data-fa-i2svg='')
+										path(fill='currentColor' d='M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z')
+									// <span class="fas fa-caret-right dropdown-indicator-icon"></span> Font Awesome fontawesome.com
+								span.nav-link-icon
+									svg.feather.feather-tag(xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+										path(d='M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z')
+										line(x1='7' y1='7' x2='7.01' y2='7')
+								span.nav-link-text Materials
+								svg.svg-inline--fa.fa-circle.text-info.ms-1.new-page-indicator(style='font-size: 6px;' aria-hidden='true' focusable='false' data-prefix='fas' data-icon='circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512' data-fa-i2svg='')
+								// <span class="fa-solid fa-circle text-info ms-1 new-page-indicator" style="font-size: 6px"></span> Font Awesome fontawesome.com
+						.parent-wrapper.label-1
+							ul#nv-home.nav.collapse.parent.show(data-bs-parent='#navbarVerticalCollapse')
+								
+								li.nav-item
+									a.nav-link(href='/admin/material/Chêne')
+										.d-flex.align-items-center
+											span.nav-link-text Chêne
+									// more inner pages
+								li.nav-item
+									a.nav-link(href='/admin/material/Frêne')
+										.d-flex.align-items-center
+											span.nav-link-text Frêne
+									// more inner pages
+
+								li.nav-item
+									a.nav-link(href='/admin/material/Noyer')
+										.d-flex.align-items-center
+											span.nav-link-text Noyer
+									// more inner pages
+								li.nav-item
+									a.nav-link(href='/admin/material/Aluminium')
+										.d-flex.align-items-center
+											span.nav-link-text Aluminium
+									// more inner pages
+								li.nav-item
+									a.nav-link(href='/admin/material/Acier Inox')
+										.d-flex.align-items-center
+											span.nav-link-text Acier Inox
+									// more inner pages
+								li.nav-item
+									a.nav-link(href='/admin/material/Plastique')
+										.d-flex.align-items-center
+											span.nav-link-text Plastique
+									// more inner pages
+
+						
+
+
+
+
+		

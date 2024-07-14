@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "669231007bbb593137701da0"
+  },
+  "name": "zaffega",
+  "description": "fffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêir",
+  "materials": {},
+  "stock": 1,
+  "category": "Shelf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "669231387bbb593137701da6"
+  },
+  "name": "farergat",
+  "description": "fffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêirfffafuhafarjaeufhzafajahgeoiazefuoafàioffgaerfuioaehrfaerf^vioaejviuhae^àijgeraiugaêir",
+  "materials": {
+    "Frêne": "on",
+    "Chêne": "on",
+    "Acier Inox": "on",
+    "Aluminium": "on"
+  },
+  "stock": 45,
+  "category": "Shelf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6693c7c262b58be2e44ccf41"
+  },
+  "name": "meuble",
+  "description": "afrgatg",
+  "materials": {
+    "Frêne": "on",
+    "Noyer": "on",
+    "Acier Inox": "on"
+  },
+  "stock": 2,
+  "category": "Cabinet",
+  "__v": 0
+}]

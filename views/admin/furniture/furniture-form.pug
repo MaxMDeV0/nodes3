@@ -1,0 +1,39 @@
+extends ../admin-layout
+
+block content 
+    h2.mb-5= "Add a furniture !"
+    form.mb-9(method="post")
+        .row.g-5
+            .col-12.col-xl-8
+                h4.mb-3 Furniture Title
+                input.form-control.mb-5(type='text' placeholder='Write title here...' name="name")
+                h4.mb-3 Furniture Descrition
+                textarea.form-control.mb-5(type='text' placeholder='Write a descrition here...', style="height:415px;" name="description")
+            .col-12.col-xl-4 
+                .card.mb-3
+                    .card-body
+                        .row.gx-3
+                            .col-12.col-sm-6.col-xl-12
+                                .mb-4
+                                    .d-flex.flex-wrap.mb-2
+                                        h5.mb-0.text-body-highlight.me-2 Category
+                                    select.form-select.mb-3(name="category")
+                                        option(selected disabled) Choose a category
+                                        option(value="Shelf") Shelf
+                                        option(value="Cabinet") Cabinet
+                            .col-12.col-sm-6.col-xl-12
+                                .mb-4
+                                    .d-flex.flex-wrap.mb-2
+                                        h5.mb-0.text-body-highlight.me-2 Stock
+                                    input.form-inuput.mb-3(name="stock", type="number")
+
+                            .col-12.col-sm-6.col-xl-12
+                                .mb-4
+                                    .d-flex.flex-wrap.mb-2
+                                        h5.mb-0.text-body-highlight.me-2 Materials
+                                    .row.gx-7
+                                        each material in materials
+                                            .mb-2
+                                                input.form-checkbox.mb-3(type="checkbox" name=`${material.libelle}`)
+                                                a.btn.btn-secondary(style="margin-left:15px",href=`/admin/search/${material.libelle}`)= material.libelle
+        button.btn.btn-primary(type="submit") Add product

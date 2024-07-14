@@ -1,0 +1,1 @@
+Des données sont enregistrées dans le dossier data, j'ai utilisé mongodb le nom de la db et meublify et l'identifiant et mdp du user sont admin@admin.fr et 0000.

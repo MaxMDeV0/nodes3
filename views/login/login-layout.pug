@@ -1,0 +1,30 @@
+doctype
+html
+    head
+        meta(charset="UTF-8")
+        meta(name='viewport', content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        link(rel='stylesheet', href="/css/bootstrap.min.css")
+        link(rel='stylesheet', href="/css/core.min.css")
+
+        title=title || 'Login'
+    body(class="container" style="padding: 25px")
+        header
+        if message !== null
+        block content
+        footer
+            block footer
+    
+        script.
+            const inputs = document.querySelectorAll('.form-control');
+            inputs.forEach(input => {
+                input.addEventListener("input", function() {
+                    if (input.value.trim() !== '') {
+                        this.classList.add('active');
+                    }
+                    else {
+                        this.classList.remove('active');
+
+                    }
+                })
+            });
+
